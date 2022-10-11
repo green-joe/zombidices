@@ -1,0 +1,28 @@
+.stat{
+background-color: #555555;
+height: 80px;
+}
+.controlpanel{
+    background-color: #888888;
+height: calc(100vh - 80px);
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+#gamefield{
+height: calc(100vh - 80px);
+background-color: #333333;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.controlpanel button{
+    padding: 10px;
+   background-color: #fffff0;
+}
+.dice{
+    width: 20vw;
+    height: 20vw;
+    border: 2px solid white;
+}
+
